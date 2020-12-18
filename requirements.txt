@@ -1,0 +1,7 @@
+streamlit
+pandas
+numpy==1.19.3
+gspread
+matplotlib
+google-auth
+oauth2client
