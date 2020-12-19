@@ -604,7 +604,10 @@ if dataset_name == "Tentang Sistem":
     st.write("10. Penghasilan Ibu")
     st.text("")
     st.write(
-        "Kemampuan sistem prediksi dapat terus diperbarui dengan cara mengakses spreadsheet yang sudah disediakan pada tautan berikut : https://docs.google.com/spreadsheets/d/1-_ouhVDZD9OO-Wm3PK_aclvIvZLiy2K_C66k81tbvIQ/edit?usp=sharing"
+        "Kemampuan sistem prediksi dapat terus diperbarui dengan cara mengakses spreadsheet yang sudah disediakan pada tautan berikut : https://docs.google.com/spreadsheets/d/1HOut-jWjztfhhjNY0mrbv2t-Xj9wqe1VrFhaHUwEIQo/edit?usp=sharing"
+    )
+    st.write(
+        "Silakan perbarui data pada sheet dengan nama ""Data Untuk Model"""
     )
     st.write("Silakan gunakan akun email sekolahan yang sudah didaftarkan")
     st.text("")
@@ -679,10 +682,11 @@ elif dataset_name == "Prediksi Perorangan":
             cekProba(data31, data32)
 else:
     st.write("Prosedur Percobaan Prediksi 📑")
-    st.write("1. Buka https://drive.google.com/file/d/14nWK5lhK-ofkD5KvSMXBzKFFedRMKCKR/view?usp=sharing dengan akun SMA Al Wahid")
-    st.write("2. Silakan merubah data sesuai kebutuhan")
-    st.write("3. Copy syntax yang muncul pada kolom L dengan jumlah menyesuaikan data")
-    st.write("4. Kemudian paste/tempel pada kolom yang barada di bawah ini 👇")
+    st.write("1. Buka https://docs.google.com/spreadsheets/d/1HOut-jWjztfhhjNY0mrbv2t-Xj9wqe1VrFhaHUwEIQo/edit?usp=sharing dengan akun SMA Al Wahid")
+    st.write("2. Pilih sheet dengan nama ""Template Prediksi""")
+    st.write("3. Silakan merubah data sesuai kebutuhan")
+    st.write("4. Copy syntax yang muncul pada kolom L dengan jumlah menyesuaikan data")
+    st.write("5. Kemudian paste/tempel pada kolom yang barada di bawah ini 👇")
     st.write(
         "Pastikan anda tidak melebihi batas masukkan yakni 30 baris per percobaan")
     x = st.text_area("Data Siswa", height=300)
