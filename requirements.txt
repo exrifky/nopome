@@ -5,3 +5,4 @@ gspread
 matplotlib
 google-auth
 oauth2client
+base64
